@@ -5,4 +5,4 @@
 # 2) start my own successful company
 # 3) become comfortable developing on mobile platforms
 
-![functioning alcoholic] (http://www.sober-solutions.com/wp-content/uploads/2014/11/high-functioning-alcoholic-celebrities.jpg)
+![legend](http://www.sober-solutions.com/wp-content/uploads/2014/11/high-functioning-alcoholic-celebrities.jpg)
