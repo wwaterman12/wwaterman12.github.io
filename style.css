@@ -1,3 +1,51 @@
-#container {
-  background-color: red;
+
+body {
+  background-image: url(http://www.hd-wallpapersdownload.com/script/bulk-upload/cool-computer-background-pictures-hd-wallpaper.jpg);
+  background-color: rgba(0,0,0,.5);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#nav {
+position: relative;
+text-align:center;
+margin-top: 150px;
+
+}
+
+#nav ul {
+display:inline-block;
+list-style:none;
+}
+
+#nav li {
+display:inline;
+}
+#nav a {
+float:left;
+text-decoration:none;
+color: white;
+font-family: "comic-sans MS", cursive, sans-serif;
+padding:0 30px;
+}
+
+#nav a:hover {
+  font-size: 2em;
+}
+
+#title {
+  text-align: left;
+  margin: 0 auto;
+  color: white;
+  font-family: "comic-sans MS", cursive, sans-serif;
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+  font-family: "comic-sans MS", cursive, sans-serif;
+  font-size: 2em;
+
 }
