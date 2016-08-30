@@ -29,6 +29,15 @@ font-family: "comic-sans MS", cursive, sans-serif;
 padding:0 30px;
 }
 
+#nav img {
+  border-radius: 100px;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 50px 10px;
+
+}
+
 #nav a:hover {
   font-size: 2em;
 }
