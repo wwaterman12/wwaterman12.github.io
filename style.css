@@ -76,7 +76,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(http://feelgrafix.com/data/nature-wallpaper/nature-wallpaper-2.jpg);
+  background-color: rgba(40, 184, 240, .6);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
