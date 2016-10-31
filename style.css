@@ -1,137 +1,93 @@
-.cb-slideshow,
-.cb-slideshow:after {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-  padding: 0;
-}
+/*top nav*/
 
-.cb-slideshow:after {
-  content: '';
-}
-
-.cb-slideshow li {
-  list-style: none;
-}
-
-.cb-slideshow li span {
-  width: 100%;
-  height: 100%;
+.title {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  color: transparent;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: none;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 36s linear infinite 0s;
-}
-
-.cb-slideshow li:nth-child(1) span {
-  background-image: url(http://feelgrafix.com/data/nature-wallpaper/nature-wallpaper-2.jpg);
-}
-
-.cb-slideshow li:nth-child(2) span {
-  background-image: url(http://wallpapercave.com/wp/is8uXJK.jpg);
-  animation-delay: 6s;
-}
-
-.cb-slideshow li:nth-child(3) span {
-  background-image: url(http://hivewallpaper.com/wallpaper/2014/12/cool-nature-wallpapers-23-background-wallpaper.jpg);
-  animation-delay: 12s;
-}
-
-.cb-slideshow li:nth-child(4) span {
-  background-image: url(http://cdn.pcwallart.com/images/skyline-wallpaper-4.jpg);
-  animation-delay: 18s;
-}
-
-.cb-slideshow li:nth-child(5) span {
-  background-image: url(http://hivewallpaper.com/wallpaper/2014/12/cool-nature-wallpapers-23-background-wallpaper.jpg);
-  animation-delay: 24s;
-}
-
-.cb-slideshow li:nth-child(6) span {
-  background-image: url(http://wallpapercave.com/wp/is8uXJK.jpg);
-  animation-delay: 30s;
-}
-
-@keyframes imageAnimation {
-  0% { opacity: 0; animation-timing-function: ease-in; }
-  8% { opacity: 1; animation-timing-function: ease-out; }
-  17% { opacity: 1 }
-  25% { opacity: 0 }
-  100% { opacity: 0 }
-}
-
-#home {
-  position: absolute;
-  padding: 0;
+  width: 100%;
+  text-align: left;
   top: 0;
   left: 0;
-  height: 100%;
+  padding-bottom: 1%;
+}
+
+.title-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #989898;
+}
+
+.title a {
+  padding-left: 2%;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #989898;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+.title a:hover {
+  font-size: 2rem;
+}
+
+.clearfix {
+    display: none;
+    overflow: auto;
+}
+
+.img2 {
+    float: right;
+}
+
+#emoji-details {
+  display: none;
+}
+
+#clean-app-details {
+  display: none;
+}
+
+#notes-map-details {
+  display: none;
+}
+
+.slides {
+  position: fixed;
+  bottom: 10%;
+  height: 30%;
   width: 100%;
-  background-color: rgba(40, 184, 240, .6);
-  background-size: 100% 100%;
+
+}
+
+.icon {
+  position: absolute;
+  height: 90%;
+  width: 20%;
+  border: 1px solid #989898;
+
+}
+#emoji-icon {
+  background: url("./images/emoji_escape.png");
+  margin-left: 10%;
+  background-size: cover;
+}
+
+#clean-app-icon {
+  background: url("./images/clean_app.png");
+  margin-left: 40%;
+  background-size: cover;
+}
+
+#notes-map-icon {
+  background: url("./images/notes_map.png");
+  margin-left: 70%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-
-#top {
-  top: 0;
-  left: 0;
-  position: fixed;
-  min-width: 100%;
-  text-align: center;
-  background: rgba(40, 184, 240, .6);
-  background-size: 100%;
-}
-
-
-.nav {
-  width: 20%;
-  float: left;
-  padding:20px 30px;
-
-}
-
-.nav a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  transition: font-size 1s, border 1s;
-  font-size: 2em;
-}
-
-.nav a:hover {
-  font-size: 2.5em;
-  border: 4px solid white;
-}
-
-#cover {
-  position: relative;
-  display: block;
-  min-width: 50%;
-  top: 15rem;
-  text-align: center;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-#name {
-  font-size: 3em;
+/*slideshow*/
+/*.slideshow {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  top: 50%;
   margin: 0 auto;
-  padding: 0;
-}
 
-#job {
-  font-size: 4em;
-  margin: 0 auto;
-  padding: 0;
-}
+}*/

@@ -1,63 +1,90 @@
-<!DOCTYPE <html>
-
-<head>
-  <meta charset="utf-8">
-
-  <title>
-  Wes Waterman
-  </title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
+<!DOCTYPE html>
+<html>
+<title>Wes Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="./lib/jquery.bxslider.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <body>
-<div id='home'>
+  <div class="title">
+    <p class="title-name">Wes Waterman
+      <a href="https://github.com/wwaterman12">Github</a>
+      <a href="www.linkedin.com/in/wesley-waterman-7a03a255">LinkedIn</a>
+      <a href="#">Contact</a>
+    </p>
+  </div>
 
-<ul class="cb-slideshow">
-  <li>
-    <span></span>
-  </li>
-  <li>
-    <span></span>
-  </li>
-  <li>
-    <span></span>
-  </li>
-  <li>
-    <span></span>
-  </li>
-  <li>
-    <span></span>
-  </li>
-  <li>
-    <span></span>
-  </li>
-</ul>
+  <div class="clearfix">
+    <img class="img2" src="./images/10202016-student-photos-1915.jpg" alt="profile pic" width="100" height="140">
+    Click to edit summaryHi, I'm Wes, an enthusiastic
+    full-stack web developer on the hunt for a new challenge.
+    I am looking for a fast paced position in a growing company.
+    I am constantly pushing myself to learn new technologies and
+    use intuitive and readable code in my applications.
+    Thanks for coming to my site!
+  </div>
 
-<div id="top">
-  <div class="nav"><a href="#">Home</a></div>
-  <div class="nav"><a href="#">About Me</a></div>
-  <div class="nav"><a href="#">Projects</a></div>
-  <div class="nav"><a href="#">Contact</a></div>
-</div>
+  <div id="emoji-details">
+    <h3>Emoji Escape</h3>
+    <p class="description">
+      <span class="category">Description:</span>
+      This is a fun game I built without using any frameworks or libraries
+    </p>
+    <p class="tech">
+      <span class="category">tech:</span>
+      HTML5, CSS, Javascript
+    </p>
+  </div>
 
-<div id="cover">
-<p id="name">Wes Waterman</p>
-<p id ="job">Full Stack Web Developer</p>
-</div>
-</div>
+  <div id="clean-app-details">
+    <h3>Clean App</h3>
+    <p class="description">
+      <span class="category">Description:</span>
+      This is the front-end to an e-commerce mobile site for house cleaning services.
+      It is meant to be viewed on a mobile platform.
+    </p>
+    <p class="tech">
+      <span class="category">tech:</span>
+      HTML/CSS/Javascript, React js
+    </p>
+  </div>
 
-<div id="AboutMe">
-<p>About Me</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+  <div id="notes-map-details">
+    <h3>Notes Map</h3>
+    <p class="description">
+      <span class="category">Description:</span>
+      This is a notes/posts sharing app where users can
+      create and read posts which are geolocation stamped and marked on a
+      google map.
+    </p>
+    <p class="tech">
+      <span class="category">tech:</span>
+      HTML/CSS/Javascript, React js, firebase
+    </p>
+  </div>
 
+  <div class="slides">
+    <span class="icon" id="emoji-icon"></span>
+    <span class="icon" id="clean-app-icon"></span>
+    <span class="icon" id="notes-map-icon"></span>
+  </div>
+
+
+
+
+
+<!--   <div class="slideshow">
+    <ul class="bxslider">
+      <li><img src="./images/emoji_escape.png" title="Emoji Escape" alt="Emoji Escape" /></li>
+      <li><img src="./images/clean_app.png" title="Clean App" alt="Clean App" /></li>
+      <li><img src="./images/notes_map.png" title="Notes Map" alt="Notes Map" /></li>
+    </ul>
+  </div> -->
+
+  <script src="./js/jquery.bxslider.min.js"></script>
+  <script src="./js/scripts.js" charset="utf-8"></script>
 </body>
-
 </html>
+
+
