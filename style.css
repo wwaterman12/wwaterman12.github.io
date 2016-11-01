@@ -1,5 +1,8 @@
 /*top nav*/
-
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #989898;
+}
 .title {
   position: absolute;
   width: 100%;
@@ -10,9 +13,7 @@
 }
 
 .title-name {
-  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
-  color: #989898;
 }
 
 .title a {
@@ -28,66 +29,25 @@
   font-size: 2rem;
 }
 
-.clearfix {
-    display: none;
-    overflow: auto;
+.profile {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
 }
 
-.img2 {
-    float: right;
-}
-
-#emoji-details {
-  display: none;
-}
-
-#clean-app-details {
-  display: none;
-}
-
-#notes-map-details {
-  display: none;
-}
-
-.slides {
-  position: fixed;
-  bottom: 10%;
-  height: 30%;
-  width: 100%;
-
-}
-
-.icon {
-  position: absolute;
-  height: 90%;
-  width: 20%;
+.profile-pic {
   border: 1px solid #989898;
-
-}
-#emoji-icon {
-  background: url("./images/emoji_escape.png");
-  margin-left: 10%;
-  background-size: cover;
+  border-radius: 50%;
+  text-align: center;
 }
 
-#clean-app-icon {
-  background: url("./images/clean_app.png");
-  margin-left: 40%;
-  background-size: cover;
+.projects {
+  bottom: 0;
 }
-
-#notes-map-icon {
-  background: url("./images/notes_map.png");
-  margin-left: 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
+.projects img {
+  margin: 0 4% 0 4%;
+  height: 8%;
+  width: 15%;
 }
-/*slideshow*/
-/*.slideshow {
-  position: absolute;
-  height: 30%;
-  width: 30%;
-  top: 50%;
-  margin: 0 auto;
-
-}*/
