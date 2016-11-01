@@ -1,26 +1,26 @@
-/*top nav*/
 body {
   font-family: 'Roboto', sans-serif;
-  color: #989898;
+  /*color: #989898;*/
 }
 .title {
+  color: black;
   position: absolute;
   width: 100%;
-  text-align: left;
+  text-align: center;
   top: 0;
   left: 0;
-  padding-bottom: 1%;
+  background-color: #00d5c3;
 }
 
 .title-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .title a {
-  padding-left: 2%;
+  padding: 2%;
   text-decoration: none;
   font-size: 1rem;
-  color: #989898;
+  color: black;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .projects {
-  bottom: 0;
+  padding-top: 5%;
 }
 .projects img {
   margin: 0 4% 0 4%;
