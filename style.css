@@ -44,7 +44,7 @@ body {
 
 .profile-pic {
   border: 1px solid #989898;
-  border-radius: 50%;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -55,4 +55,18 @@ body {
   margin: 0 4% 0 4%;
   height: 8%;
   width: 15%;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile {
+      margin-top: 30%;
+      width: 45%;
+      font-size: 14px;
+    }
+    .projects img {
+      margin: 0 auto;
+      /*margin: 0 6% 0 6%;*/
+      height: 24%;
+      width: 45%;
+    }
 }
