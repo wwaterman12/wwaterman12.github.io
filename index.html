@@ -1,47 +1,88 @@
 <!DOCTYPE html>
-<html>
-<title>Wes Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<body>
-  <div class="title">
-    <p class="title-name">Wes Waterman <br />
-      <a href="https://github.com/wwaterman12">Github</a>
-      <a href="https://www.linkedin.com/in/wesley-waterman-7a03a255">LinkedIn</a>
-      <a href="#">Contact</a>
-    </p>
-  </div>
+<html lang="en">
+<head>
+  <title>Wes Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-  <div class="profile">
-      <img class="profile-pic" src="./images/b_w_profile_pic.jpg" alt="profile pic" width="150" height="150">
-    <p>
-      Hi, I'm Wes, an enthusiastic
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#bio">Wes Waterman</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/wwaterman12">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/wesley-waterman-7a03a255">LinkedIn</a></li>
+        <li><a href="mailto:wswaterman@gmail.com?Subject=Portfolio%20Intro">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid profile text-center">
+  <h3 class="margin">Full Stack</h3>
+  <img src="./images/b_w_profile_pic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Web Developer</h3>
+</div>
+
+<div id="bio" class="container-fluid about text-center">
+  <h3 class="margin">About Me</h3>
+  <p>
+    Hi, I'm Wes, an enthusiastic
       full-stack web developer on the hunt for a new challenge.
       I am looking for a fast paced position in a growing company.
       I am constantly pushing myself to learn new technologies and
       use intuitive and readable code in my applications.
       Thanks for coming to my site!
-    </p>
-  </div>
-  <div class="projects">
-    <a href="https://github.com/wwaterman12/Clean-App">
-      <img src="images/clean-app.png" alt="clean app">
-    </a>
-    <a href="https://github.com/wwaterman12/Emoji-Escape">
-      <img src="images/emoji-escape.png" alt="emoji escape">
-    </a>
-    <a href="https://github.com/wwaterman12/geo-location-app">
-      <img src="images/geo-notes.png" alt="geo notes">
-    </a>
-    <a href="https://github.com/wwaterman12/rails-api">
-      <img src="images/rails-api.png" alt="rails api">
-    </a>
-  </div>
+  </p>
+</div>
 
-  <script src="./js/scripts.js" charset="utf-8"></script>
+<div class="container-fluid projects text-center">
+  <h3 class="margin">My Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>This is a prototype for an e-commerce mobile web application built in React.js that allows users to select a service based on date and location, register as a new user, and pay for selected services.
+      I built the client side application</p>
+      <img src="images/clean-app.png" class="img-responsive margin" style="width:100%" alt="e-commerce prototype">
+      <p><a href="https://github.com/wwaterman12/e-commerce-platform">Repository</a></p>
+    </div>
+    <div class="col-sm-3">
+      <p>One of my first projects, the assignment was to build a game using only vanilla javascript. Emoji Escape allows users to control an emoji and
+      attempt to evade moving obstacles. I wrote the collision detection algorithms by hand as well</p>
+      <img src="images/emoji-escape.png" class="img-responsive margin" style="width:100%" alt="browser game">
+      <p><a href="https://github.com/wwaterman12/Emoji-Escape">Repository</a></p>
+    </div>
+    <div class="col-sm-3">
+      <p>This is a community notes sharing application with a google
+      maps interface. Like twitter, except each note/tweet is geolocation stamped and displayed as a google maps marker for all other users to see</p>
+      <img src="images/geo-notes.png" class="img-responsive margin" style="width:100%" alt="maps todo">
+      <p><a href="https://github.com/wwaterman12/Geo-tips">Repository</a></p>
+    </div>
+    <div class="col-sm-3">
+      <p>This is a consumable api built using Ruby on Rails. I created a relational database using PostgreSQL that can be accessed through the rails server. Users can make HTTP requests for authors and any posts associated with an author</p>
+      <img src="images/rails-api.png" class="img-responsive margin" style="width:100%" alt="rails api">
+      <p><a href="https://github.com/wwaterman12/rails-api">Repository</a></p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid footer text-center">
+  <p>Send me an email at <a href="mailto:wswaterman@gmail.com?Subject=Portfolio%20Intro" target="_top">wswaterman@gmail.com</a></p>
+  <p>I look forward to hearing from you!</p>
+</footer>
+
 </body>
 </html>
-
-
